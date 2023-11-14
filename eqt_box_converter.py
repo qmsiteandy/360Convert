@@ -46,9 +46,9 @@ class EQT_Box_Converter():
         crop_outputs = [crop_front, crop_right, crop_back, crop_left, crop_up, crop_down]
 
         # save crop images
-        output_path = './output/'
-        for i, crop in enumerate(crop_outputs):
-            cv2.imwrite(f'{output_path}crop-box-{i}.jpg', crop)
+        # output_path = './output/'
+        # for i, crop in enumerate(crop_outputs):
+        #     cv2.imwrite(f'{output_path}crop-box-{i}.jpg', crop)
 
 
         return crop_outputs
